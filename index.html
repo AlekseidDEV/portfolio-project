@@ -6,8 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
@@ -43,7 +53,7 @@
 
         <div class="block__present animate__animated animate__backInLeft">
           <div class="block__info">
-            <h4 class="sup__title ">Фрилансер</h4>
+            <h4 class="sup__title">Фрилансер</h4>
             <h1 class="sub__title">Рудыко Алексей</h1>
             <p class="present__text">
               Разрабатываю сайты для малого и среднего бизнеса. <br />
@@ -158,76 +168,142 @@
           <div class="title__sup__slider">Последние проекты</div>
           <!-- title__sup__slider -->
 
-          <div class="slider__container">
-            <div class="slider-track">
-              <div class="slider__item">
-                <div class="slider__info">
-                  <div class="slider__img">
-                    <img src="/img/project-img.png" alt="img" class="logo__slider" />
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="left__slide">
+                  <img
+                    src="/img/project-img.png"
+                    alt="img"
+                    class="logo__slider"
+                  />
+                </div>
+
+                <div class="slider__ifo">
+                  <div class="title__sub__slide">
+                    Сайт строительной фирмы “Велстрой”
                   </div>
-                  <!-- /.slider__img -->
-      
-                  <div class="slider__ifo">
-                    <div class="title__sub__slide">
-                      Сайт строительной фирмы “Велстрой”
-                    </div>
-      
-                    <div class="colum__sup">
-                      <div class="col-1">
-                        <img src="/img/time-icon.svg" alt="img" class="time__icon" />
-                        <div class="time">
-                          <span class="sup__lide"> Сроки </span>
-      
-                          <span class="sub__lide"> 4 рабочих дня </span>
-                        </div>
-                      </div>
-                      <!-- col-1 -->
-      
-                      <div class="col-2">
-                        <img src="/img/cost-icon.svg" alt="img" class="time__icon" />
-                        <div class="money">
-                          <span class="sup__lide"> Стоимость </span>
-      
-                          <span class="sub__lide"> 14 000 рублей </span>
-                        </div>
-                      </div>
-                      <!-- /.col-2 -->
-                    </div>
-      
-                    <div class="slider_review">
-                      <img src="/img/feedback-icon.svg" alt="img" class="left__img" />
-                      <div class="text__wrapp">
-                        <span class="reviews"> Отзыв клиента </span>
-      
-                        <p class="slider__text">
-                          Мне понравилось работать с Алексеем, потому что он все
-                          <br />
-                          время был на связи и предлагал свои решения, когда мы <br />
-                          заходили в тупик с дизайном. Мне нужны были закрывающие
-                          <br />
-                          документы для бухгалтерии, и Алексей — тот редкий фрилансер,
-                          <br />
-                          у которого с документами все в порядке
-                        </p>
+
+                  <div class="colum__sup">
+                    <div class="col-1">
+                      <img
+                        src="/img/time-icon.svg"
+                        alt="img"
+                        class="time__icon"
+                      />
+                      <div class="time">
+                        <span class="sup__lide"> Сроки </span>
+
+                        <span class="sub__lide"> 4 рабочих дня </span>
                       </div>
                     </div>
-                    <!-- /.slider_review -->
+                    <!-- col-1 -->
+
+                    <div class="col-2">
+                      <img
+                        src="/img/cost-icon.svg"
+                        alt="img"
+                        class="time__icon"
+                      />
+                      <div class="money">
+                        <span class="sup__lide"> Стоимость </span>
+
+                        <span class="sub__lide"> 14 000 рублей </span>
+                      </div>
+                    </div>
+                    <!-- /.col-2 -->
                   </div>
-                  <!-- /.slider__ifo -->
+
+                  <div class="slider_review">
+                    <img
+                      src="/img/feedback-icon.svg"
+                      alt="img"
+                      class="left__img"
+                    />
+                    <div class="text__wrapp">
+                      <span class="reviews"> Отзыв клиента </span>
+
+                      <p class="slider__text">
+                        Мне понравилось работать с Алексеем, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Алексей — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.slider_review -->
                 </div>
               </div>
-              <div class="slider__item"></div>
+              <div class="swiper-slide">
+                <div class="left__slide">
+                  <img
+                    src="/img/project-img.png"
+                    alt="img"
+                    class="logo__slider"
+                  />
+                </div>
+
+                <div class="slider__ifo">
+                  <div class="title__sub__slide">
+                    Сайт строительной фирмы “ТехноМарт”
+                  </div>
+
+                  <div class="colum__sup">
+                    <div class="col-1">
+                      <img
+                        src="/img/time-icon.svg"
+                        alt="img"
+                        class="time__icon"
+                      />
+                      <div class="time">
+                        <span class="sup__lide"> Сроки </span>
+
+                        <span class="sub__lide"> 4 рабочих дня </span>
+                      </div>
+                    </div>
+                    <!-- col-1 -->
+
+                    <div class="col-2">
+                      <img
+                        src="/img/cost-icon.svg"
+                        alt="img"
+                        class="time__icon"
+                      />
+                      <div class="money">
+                        <span class="sup__lide"> Стоимость </span>
+
+                        <span class="sub__lide"> 14 000 рублей </span>
+                      </div>
+                    </div>
+                    <!-- /.col-2 -->
+                  </div>
+
+                  <div class="slider_review">
+                    <img
+                      src="/img/feedback-icon.svg"
+                      alt="img"
+                      class="left__img"
+                    />
+                    <div class="text__wrapp">
+                      <span class="reviews"> Отзыв клиента </span>
+
+                      <p class="slider__text">
+                        Мне понравилось работать с Алексеем, потому что он все
+                        время был на связи и предлагал свои решения, когда мы
+                        заходили в тупик с дизайном. Мне нужны были закрывающие
+                        документы для бухгалтерии, и Алексей — тот редкий
+                        фрилансер, у которого с документами все в порядке
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.slider_review -->
+                </div>
+              </div>
             </div>
+            <div class="swiper-pagination"></div>
           </div>
           <!-- /.slider__info -->
-          <div class="strip__slider">
-            <div class="elipse__active">
-              <img src="/img/Ellipse.svg" alt="img" class="elipse__active" />
-            </div>
-            <div class="Elipse-pass">
-              <img src="/img/Ellipsepassiv.svg" alt="img" class="pass-elipse" />
-            </div>
-          </div>
         </div>
         <!-- /.container -->
       </div>
@@ -256,7 +332,9 @@
                   placeholder="Ваш телефон"
                 />
 
-                <a href="#" class="button__form btn__sm"> Бесплатная консультация </a>
+                <a href="#" class="button__form btn__sm">
+                  Бесплатная консультация
+                </a>
               </form>
             </div>
             <!-- /.left__base -->
@@ -313,5 +391,16 @@
       </div>
       <!-- footer -->
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      })
+    </script>
   </body>
 </html>
